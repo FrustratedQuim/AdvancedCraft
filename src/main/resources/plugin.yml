@@ -1,0 +1,17 @@
+name: AdvancedCraft
+version: '1.0.0'
+main: ratger.kotlinSimple.Main
+api-version: '1.21'
+author: ratger
+description: Крафты новых крутых штук
+
+permissions:
+  advancedcraft.admin:
+    description: Права на просмотр лога крафтов
+    default: false
+
+commands:
+  acraft:
+    description: Открытие лога
+    usage: /acraft crafts [page]
+    permission: AdvancedCraft.admin
